@@ -4,7 +4,7 @@ BedWriter[W] wraps any movable Writer and serialises BedRecord / BedView
 values as tab-delimited BED lines, preserving the original column count.
 """
 
-from blazeseq.bed.record import BedRecord, BedView
+from blazeseq._bed.record import BedRecord, BedView
 from blazeseq.io.writers import Writer
 
 
