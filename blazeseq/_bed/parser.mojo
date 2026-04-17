@@ -16,7 +16,7 @@ from std.iter import Iterator
 from std.memory import Span
 
 from blazeseq.CONSTS import EOF
-from blazeseq.bed.record import (
+from blazeseq._bed.record import (
     BedRecord,
     BedView,
     ItemRgb,
