@@ -12,7 +12,7 @@ from std.memory import Span
 from blazeseq.byte_string import BString
 from blazeseq.io.writers import Writer
 from blazeseq.features import Position, Interval
-from blazeseq.gff.attributes import (
+from blazeseq._gff.attributes import (
     Gff3Attributes,
     parse_gff3_attributes,
     percent_decode_to_bstring,
