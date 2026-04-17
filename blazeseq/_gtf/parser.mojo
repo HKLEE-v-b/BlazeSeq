@@ -13,7 +13,7 @@ from std.memory import Span
 from blazeseq.byte_string import BString
 from blazeseq.CONSTS import EOF
 from blazeseq.features import Position, Interval
-from blazeseq.gtf.record import GtfRecord, GtfView, GtfStrand
+from blazeseq._gtf.record import GtfRecord, GtfView, GtfStrand
 from blazeseq.io.buffered import EOFError
 from blazeseq.io.delimited import (
     DelimitedReader,
